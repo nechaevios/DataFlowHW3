@@ -69,10 +69,10 @@
 				D82967DC273579C200A042F5 /* TimeCounter.swift */,
 				D82967E0273592C400A042F5 /* UserManager.swift */,
 				D82967E227359A0500A042F5 /* StarterView.swift */,
-				D82967D2273575AE00A042F5 /* Assets.xcassets */,
-				D82967D4273575AE00A042F5 /* Preview Content */,
 				D89E1D05273688C50005E91A /* LogInButtonView.swift */,
 				D89E1D07273689170005E91A /* LogOutButtonView.swift */,
+				D82967D2273575AE00A042F5 /* Assets.xcassets */,
+				D82967D4273575AE00A042F5 /* Preview Content */,
 			);
 			path = DataFlowHW3;
 			sourceTree = "<group>";
