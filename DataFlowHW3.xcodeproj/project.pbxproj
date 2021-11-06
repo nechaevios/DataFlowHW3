@@ -11,6 +11,12 @@
 		D82967D1273575AD00A042F5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D82967D0273575AD00A042F5 /* ContentView.swift */; };
 		D82967D3273575AE00A042F5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D82967D2273575AE00A042F5 /* Assets.xcassets */; };
 		D82967D6273575AE00A042F5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D82967D5273575AE00A042F5 /* Preview Assets.xcassets */; };
+		D82967DD273579C200A042F5 /* TimeCounter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D82967DC273579C200A042F5 /* TimeCounter.swift */; };
+		D82967DF27357DB100A042F5 /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D82967DE27357DB100A042F5 /* RegisterView.swift */; };
+		D82967E1273592C400A042F5 /* UserManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D82967E0273592C400A042F5 /* UserManager.swift */; };
+		D82967E327359A0500A042F5 /* StarterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D82967E227359A0500A042F5 /* StarterView.swift */; };
+		D89E1D06273688C50005E91A /* LogInButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D89E1D05273688C50005E91A /* LogInButtonView.swift */; };
+		D89E1D08273689170005E91A /* LogOutButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D89E1D07273689170005E91A /* LogOutButtonView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +25,12 @@
 		D82967D0273575AD00A042F5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D82967D2273575AE00A042F5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D82967D5273575AE00A042F5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D82967DC273579C200A042F5 /* TimeCounter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeCounter.swift; sourceTree = "<group>"; };
+		D82967DE27357DB100A042F5 /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
+		D82967E0273592C400A042F5 /* UserManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserManager.swift; sourceTree = "<group>"; };
+		D82967E227359A0500A042F5 /* StarterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarterView.swift; sourceTree = "<group>"; };
+		D89E1D05273688C50005E91A /* LogInButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInButtonView.swift; sourceTree = "<group>"; };
+		D89E1D07273689170005E91A /* LogOutButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogOutButtonView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,8 +65,14 @@
 			children = (
 				D82967CE273575AD00A042F5 /* DataFlowHW3App.swift */,
 				D82967D0273575AD00A042F5 /* ContentView.swift */,
+				D82967DE27357DB100A042F5 /* RegisterView.swift */,
+				D82967DC273579C200A042F5 /* TimeCounter.swift */,
+				D82967E0273592C400A042F5 /* UserManager.swift */,
+				D82967E227359A0500A042F5 /* StarterView.swift */,
 				D82967D2273575AE00A042F5 /* Assets.xcassets */,
 				D82967D4273575AE00A042F5 /* Preview Content */,
+				D89E1D05273688C50005E91A /* LogInButtonView.swift */,
+				D89E1D07273689170005E91A /* LogOutButtonView.swift */,
 			);
 			path = DataFlowHW3;
 			sourceTree = "<group>";
@@ -138,6 +156,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				D82967D1273575AD00A042F5 /* ContentView.swift in Sources */,
+				D82967DF27357DB100A042F5 /* RegisterView.swift in Sources */,
+				D82967E327359A0500A042F5 /* StarterView.swift in Sources */,
+				D89E1D06273688C50005E91A /* LogInButtonView.swift in Sources */,
+				D82967DD273579C200A042F5 /* TimeCounter.swift in Sources */,
+				D89E1D08273689170005E91A /* LogOutButtonView.swift in Sources */,
+				D82967E1273592C400A042F5 /* UserManager.swift in Sources */,
 				D82967CF273575AD00A042F5 /* DataFlowHW3App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

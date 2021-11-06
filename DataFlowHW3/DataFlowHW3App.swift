@@ -9,9 +9,21 @@ import SwiftUI
 
 @main
 struct DataFlowHW3App: App {
+    @StateObject private var userManager = UserManager()
+    
+    @AppStorage("userName") var userNameAppStorage = ""
+    @AppStorage("isRegistered") var isRegisteredAppStorage = false
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            StarterView()
+                .onAppear() {
+                    userManager.name = userNameAppStorage
+                    userManager.isRegistered = isRegisteredAppStorage
+                }
+                .environmentObject(userManager)
         }
     }
 }
+
+
